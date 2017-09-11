@@ -1,184 +1,275 @@
 <!DOCTYPE html>
-<html lang='en-us'>
+<html lang="en-us">
 
 <head>
 
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>William Chandler</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+	<style>
 	
-	<title>chndlr.wllm</title>
+		body {
+			font-family: Oswald, sans-serif;
+			background-color: white;
+			color: #777777;
+			font-size: 18px;
+			/*background-image: url("../images/sos.png");*/
+		}
 
-   <!-- link to Bootstrap -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Aclonica|Aldrich" rel="stylesheet">
+		a, li {
+			color: #7EB19F;
+		}
 
-	<style type="text/css">
+		li.active {
+			color: #7EB19F;
+		}
 
-	html {
-		background-color: #222831;
-	}
+		h1, .panel-title {
+			color: #777777;
+		}
 
-	body {
-		color: #555;
-		background-color: #393E46;
-		font-family: 'Aldrich', sans-serif;
-		/* max-width: 80%; */
-	}
+		h1, h3 {
+			font-family: Oswald, sans-serif;
+		}
 
-	.howdy {
-		background-color: #539092;
-	}
+		h3 {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
 
-	.col-md-4, .col-md-8 {
-		height: 100%;
-	}
+		.navbar {
+			background-color: #3A4750;
+		}
 
-	.emptyh1, #title {
-		color: #FFD464;
-	}
+		.navbar-brand {
+			font-size: 50px;
+			margin-top: 10px;
+		}
 
-	h1 {
-		color: #0E3047;
-	}
+		#wbc {
+			color: #46CDCF;
+			margin-bottom: 15px;
+		}
 
-	.empty {
-		background-color: #F97300;
-	}
+		#wbc:hover {
+			color: #fff;
+		}
 
-	div.jumbotron {
-		background-color: #FFD464;
-	}
+		.nav {
+			margin-top: 10px;
+		}
 
+		.thumbnail {
+			margin-bottom: 0px;
+		}
+
+		.footer {
+			height: 50px;
+			background-color: transparent;
+			color: #3A4750;
+			width: 100%;
+			text-align: right;
+			font-size: 12px;
+			padding-top: 15px;
+			opacity: 0.8;
+		}
+
+		.btn {
+			position: relative;
+			opacity: 0.7;
+		}
+
+		.btn:hover {
+			color: #fff;
+			background-color: #46CDCF;
+			opacity: 1.0;
+		}
+
+		.social {
+			max-width: 128px;
+			max-height: 128px;
+		}
+
+		.main {
+			margin-bottom: 30px;
+		}
+
+		#exampleInputMessage1 {
+			height: 150px;
+		}
+
+		.navbar-default .navbar-nav>li>a {
+			color: #46CDCF;
+		}
+
+		.navbar-default .navbar-nav>li>a:hover {
+			color: #fff;
+		}
+
+		.storm {
+			margin-bottom: 30px;
+		}
+
+		form {
+			margin-bottom: 30px;
+		}
+
+		.bio {
+			margin-bottom: 30px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			line-height: 150%;
+		}
+
+		img {
+			margin-bottom: 0px;
+		}
+
+		.headshot {
+			margin-bottom: 20px;
+		}
+	
 	</style>
+
 
 </head>
 
-
 <body>
 
-	<div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container top">
+      <div class="navbar-header">
+        <a class="navbar-brand" id ="wbc" href="index.html">William Chandler</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="primary_nav"><a href="index.html" id="about">About</a></li>
+        <li class="primary_nav"><a href="index.html#secondary" id="portfolio">Portfolio</a></li>
+        <li class="primary_nav"><a href="contact.html" id="contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container main">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/wc_bw.jpg" alt="William Chandler" class="img-thumbnail w3-animate-opacity headshot">
+          </div>
+          <div class="col-md-9 bio">
+            <p>My name is William Chandler, and I'm training to become a full-stack web developer through UT's Coding Bootcamp. I'm currently expanding my knowledge of HTML, CSS, and JavaScript. Also in the docket are Node.js, MongoDB, React.js, Laravel, and a flurry of others.</p>
+            <p>I have degrees in Spanish and International Relations, and have worked in study abroad and international human rights. But for some time I've been interested in programming and web development. I decided to take the plunge, and I'm confident I made the right choice. I enjoy learning, overcoming challenges, and creating.</p>
+            <p>A native Texan, I've lived in Mexico, Scotland, and Spain. My family [partner: Jacqueline; son: Lochlan; dogs: Maggie + Griffin] and I are currently based in Austin, with dreams of the Pacific Northwest.</p>
+            <p>Please take a look at my portfolio and get in touch if I can help turn your concepts into sharp, efficient web realities. I hope to work with you soon!</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect with me</h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://github.com/wllm-chndlr" target="_blank" class="thumbnail social">
+                  <img src="images/icons/github.svg" alt="github">
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="https://www.linkedin.com/in/wllmchndlr/" target="_blank" class="thumbnail social">
+                  <img src="images/icons/linkedin.svg" alt="linkedin">
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="https://stackoverflow.com/users/7964983/wllm-chndlr" target="_blank" class="thumbnail social">
+                  <img src="images/icons/stack.png" alt="stackoverflow">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="container" id="secondary">
+
+	<div class="col-md-8">
 		<div class="page-header">
-			<h1 id="title">Brilliance<small>without comment</small></h1>
+		  <h1>Portfolio</h1>
 		</div>
 
 		<div class="row">
-
-			<div class="col-md-4 howdy">
-				<h1>Howdy</h1>
-			</div>
-
-			<div class="col-md-8 empty">
-				<h1 class="emptyh1">Empty</h1>
-			</div>
-
+		  <div class="col-md-6 mario">
+			 <div class="thumbnail">
+				<img src="assets/images/portfolio/underdog.jpg" alt="mario" class="w3-hover-opacity">
+				<div class="caption mario">
+				  <h3>Underdog</h3>
+				  <p>
+					 <a href="#" class="btn btn-default" role="button">explore</a>
+				  </p>
+				</div>
+			 </div>
+		  </div>
+		  <div class="col-md-6">
+			 <div class="thumbnail">
+				<img src="assets/images/portfolio/bacon.jpg" alt="bacon" class="w3-hover-opacity">
+				<div class="caption">
+				  <h3>BacRon</h3>
+				  <p>
+					 <a href="#" class="btn btn-default" role="button">explore</a>
+				  </p>
+				</div>
+			 </div>
+		  </div>
 		</div>
-
 		<br>
-
 		<div class="row">
-
-			<div class="col-md-8 empty">
-				<h1 class="emptyh1">Empty</h1>
-			</div>
-
-			<div class="col-md-4 howdy">
-				<h1>Howdy</h1>
-			</div>
-
+		  <div class="col-md-6 mexico">
+			 <div class="thumbnail">
+				<img src="assets/images/portfolio/viva.jpg" alt="viva" class="w3-hover-opacity">
+				<div class="caption">
+				  <h3>Viva México</h3>
+				  <p>
+					 <a href="#" class="btn btn-default" role="button">explore</a>
+				  </p>
+				</div>
+			 </div>
+		  </div>
+		  <div class="col-md-6">
+			 <div class="thumbnail">
+				<img src="assets/images/portfolio/object.jpg" alt="object" class="w3-hover-opacity">
+				<div class="caption">
+				  <h3>Object</h3>
+				  <p>
+					 <a href="#" class="btn btn-default" role="button">explore</a>
+				  </p>
+				</div>
+			 </div>
+		  </div>
 		</div>
 
-		<br>
+  </div>
 
-		<div class="row">
-				
-			<div class="col-md-4 empty">
-					<h1 class="emptyh1">Empty</h1>		
-			</div>
-
-			<div class="col-md-4 howdy">
-				<h1>Howdy</h1>
-			</div>
-
-			<div class="col-md-4 empty">
-					<h1 class="emptyh1">Empty</h1>
-			</div>
-						
-		</div>
-
-		<br>
-
-		<div class="row">
-				
-			<div class="col-md-2 empty">
-				<h1 class="emptyh1">Empty</h1>
-			</div>
-
-			<div class="col-md-3 howdy">
-				<h1>Howdy</h1>
-			</div>
-
-			<div class="col-md-2 empty">
-				<h1 class="emptyh1">Empty</h1>
-			</div>
-
-			<div class="col-md-3 howdy">
-				<h1>Howdy</h1>
-			</div>
-
-			<div class="col-md-2 empty">
-				<h1 class="emptyh1">Empty</h1>
-			</div>
-						
-		</div>
-
-		<br>
-
-		<div class="row">
-				
-			<div class="col-md-4 empty">
-				<h1 class="emptyh1">Empty</h1>
-			</div>
-
-			<div class="col-md-4 howdy">
-				<h1>Howdy</h1>
-			</div>
-
-			<div class="col-md-4 empty">
-				<h1 class="emptyh1">Empty</h1>
-			</div>
-						
-		</div>
-
-
-
-	</div>
-
-	<br>
-
-	<div class="jumbotron">
-			<div class="container">
-				<h1 id="jumbo">Yo</h1>
-			</div>
-	</div>
-
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 
-	<script type="text/javascript">
-
-
-		$('.emptyh1').click(function() {
-			$('.emptyh1').fadeOut('slow');
-		});
-
-		$('.howdy').click(function() {
-			$('.emptyh1').fadeIn('slow');
-		});
-
-
-	</script>
+  <div class="footer navbar-fixed-bottom">
+    <footer>
+      © Copyright 2017 William Chandler
+    </footer>
+  </div>
 
 </body>
-
-
 
 </html>
