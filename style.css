@@ -1,0 +1,120 @@
+body {
+	font-family: Oswald, sans-serif;
+	background-color: white;
+	color: #777777;
+	font-size: 18px;
+	background-image: url("images/sos.png");
+}
+
+a, li {
+	color: #7EB19F;
+}
+
+li.active {
+	color: #7EB19F;
+}
+
+h1, .panel-title {
+	color: #777777;
+}
+
+h1, h3 {
+	font-family: Oswald, sans-serif;
+}
+
+h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar {
+	background-color: #3A4750;
+}
+
+.navbar-brand {
+	font-size: 50px;
+	margin-top: 10px;
+}
+
+#wbc {
+	color: #46CDCF;
+	margin-bottom: 15px;
+}
+
+#wbc:hover {
+	color: #fff;
+}
+
+.nav {
+	margin-top: 10px;
+}
+
+.thumbnail {
+	margin-bottom: 0px;
+}
+
+.footer {
+	height: 50px;
+	background-color: #fff;
+	color: #3A4750;
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+	padding-top: 15px;
+	padding-right: 25px;
+	background-color: transparent;
+}
+
+.btn {
+	position: relative;
+	opacity: 0.7;
+}
+
+.btn:hover {
+	color: #fff;
+	background-color: #46CDCF;
+	opacity: 1.0;
+}
+
+.social {
+	max-width: 128px;
+	max-height: 128px;
+}
+
+.main {
+	margin-bottom: 30px;
+}
+
+#exampleInputMessage1 {
+	height: 150px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #46CDCF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+}
+
+.storm {
+	margin-bottom: 30px;
+}
+
+form {
+	margin-bottom: 30px;
+}
+
+.bio {
+	margin-bottom: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	line-height: 150%;
+}
+
+img {
+	margin-bottom: 0px;
+}
+
+.headshot {
+	margin-bottom: 20px;
+}
