@@ -1,2 +1,2 @@
 # wllm-chndlr.github.io
-My user page
+Learn more about me and my work here
