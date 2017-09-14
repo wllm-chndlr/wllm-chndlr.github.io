@@ -56,7 +56,8 @@ h3 {
 .footer {
 	height: 50px;
 	background-color: #fff;
-	color: #3A4750;
+	/* color: #3A4750; */
+	color: #777777;
 	width: 100%;
 	text-align: right;
 	font-size: 12px;
@@ -67,7 +68,7 @@ h3 {
 
 .btn {
 	position: relative;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .btn:hover {
@@ -82,7 +83,7 @@ h3 {
 }
 
 .main {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 #exampleInputMessage1 {
@@ -97,16 +98,12 @@ h3 {
 	color: #fff;
 }
 
-.storm {
-	margin-bottom: 30px;
-}
-
 form {
 	margin-bottom: 30px;
 }
 
 .bio {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 	font-family: 'Open Sans Condensed', sans-serif;
 	line-height: 150%;
 }
@@ -117,4 +114,12 @@ img {
 
 .headshot {
 	margin-bottom: 20px;
+}
+
+.title, a.btn.btn-default {
+	color: #777777;	
+}
+
+div#contact.container {
+	margin-bottom: 100px;
 }
