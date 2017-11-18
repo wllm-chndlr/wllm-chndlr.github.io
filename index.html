@@ -1,218 +1,323 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>William Chandler</title>
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Contrail+One|Oswald|Racing+Sans+One|Teko" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-
-  <nav class="navbar navbar-default">
-    <div class="container top">
-      <div class="navbar-header">
-        <a class="navbar-brand" id ="wbc" href="index.html">William Chandler</a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="primary_nav"><a href="index.html#bio" id="about">About</a></li>
-        <li class="primary_nav"><a href="index.html#secondary" id="portfolio">Portfolio</a></li>
-        <li class="primary_nav"><a href="index.html#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
   
-  <div class="container main" id="bio">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="page-header">
-          <h1>About</h1>
+  <div class="navbar-fixed">
+    <nav role="navigation" class="cyan lighten-1">
+      <div class="nav-wrapper container">
+        <a id="name-container" href="#" class="brand-name white-text">William Chandler</a>
+        <ul class="right hide-on-med-and-down">
+            <li>
+              <a class="social" href="https://github.com/wllm-chndlr">GitHub</a>
+            </li>
+            <li>
+              <a class="social" href="https://www.linkedin.com/in/wllmchndlr/">LinkedIn</a>
+            </li>
+            <li>
+              <a class="social" href="https://stackoverflow.com/users/7964983/wllm-chndlr">Stack</a>
+            </li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#" class="navlink blue-grey-text text-darken-3">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header white-text animated pulse" id="name-primary">Hola, and welcome!</h1>
+        <div class="row center">
+          <h5 class="header" id="hi">My name's William, and I'm a full stack web developer.</h5>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <img src="assets/images/wc_bw.jpg" alt="William Chandler" class="img-thumbnail w3-animate-opacity headshot">
+        <!-- <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Portfolio</a>
+        </div> -->
+      </div>
+    </div>
+    <div class="parallax blue-grey darken-3">
+      <img class="par" src="images/hex.png">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center primary-icon"><i class="material-icons">build</i></h2>
+            <h5 class="center skills">Technical chops</h5>
+
+            <p class="light">Node.js, Express, JavaScript, jQuery, GIT, Github, MySQL, Materialize, Firebase, HTML, CSS, Bootstrap, APIs, JSON, REST, AJAX, command line, Photoshop, InDesign</p>
           </div>
-          <div class="col-md-9 bio">
-            <p>My name is William Chandler, and I'm a full-stack web developer. I have an in-depth understanding of programming languages and technologies including Javascript, HTML5, jQuery, CSS3, Node.js, and AJAX. Also in the docket are MongoDB, React.js, Laravel, and a flurry of others.</p>
-            <p>I have degrees in Spanish and International Relations, and have worked in study abroad and international human rights. But for some time I've been interested in programming and web development. I decided to take the plunge, and I'm confident I made the right choice. I enjoy learning, overcoming challenges, and creating.</p>
-            <p>A sixth-generation Texan, I've lived in Mexico, Scotland, and Spain. My family [partner: Jacqueline; son: Lochlan; dogs: Maggie + Griffin] and I are currently based in Austin, with dreams of the Pacific Northwest.</p>
-            <p>Please take a look at my portfolio and get in touch if I can help turn your concepts into sharp, efficient web realities.</p>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center primary-icon"><i class="material-icons">clear_all</i></h2>
+            <h5 class="center skills">Full stack to the max</h5>
+
+            <p class="light">Skilled at creating dynamic web applications with polished interface and solid back-end architecture. Striking full-stack designs allow for a more unified user experience.</p>
           </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center primary-icon"><i class="material-icons">settings_ethernet</i></h2>
+            <h5 class="center skills">More than a tech geek</h5>
+
+            <p class="light">Fluent in Spanish, Masters in International Relations, 12+ years project management experience </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
-      
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Connect</h3>
-          </div>
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-4">
-                <a href="https://github.com/wllm-chndlr" target="_blank" class="thumbnail social">
-                  <img src="assets/images/icons/github.svg" alt="github">
+    </div>
+    <div class="parallax blue-grey darken-3">
+      <img class="par" src="images/hex.png">
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="section">
+
+      <h2 class="title">Selected Portfolio</h2>
+
+      <div class="row port">
+
+          <div class="col s12 m7">
+            <div class="card animate bounce" id="card1">
+              <div class="card-image">
+                <img class="responsive-img" id="taco" src="images/portfolio/toptaco.png">
+                <!-- <span class="card-title">Top Taco ATX</span> -->
+                <a class="btn-floating halfway-fab waves-effect waves-light deep-orange" href="https://wllm-chndlr.github.io/TopTaco/" target="_blank">
+                  <i class="material-icons">zoom_out_map</i>
                 </a>
               </div>
-              <div class="col-md-4">
-                <a href="https://www.linkedin.com/in/wllmchndlr/" target="_blank" class="thumbnail social">
-                  <img src="assets/images/icons/linkedin.svg" alt="linkedin">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="https://stackoverflow.com/users/7964983/wllm-chndlr" target="_blank" class="thumbnail social">
-                  <img src="assets/images/icons/stack.png" alt="stackoverflow">
-                </a>
+              <div class="card-content">
+                <span class="card-title">Top Taco ATX</span>
+                <p>Top Taco ATX aggregates real-time ratings from Google and Facebook to answer the age-old question: Who makes the best
+                  tacos in Austin?</p>
               </div>
             </div>
           </div>
-        </div>
+
+          <div class="col s12 m5">
+            <div class="card">
+              <div class="card-image">
+                <img class="responsive-img" id="lebowski" src="images/portfolio/hangman.png">
+                <!-- <span class="card-title">Top Taco ATX</span> -->
+                <a class="btn-floating halfway-fab waves-effect waves-light deep-orange" href="https://wllm-chndlr.github.io/Lebowski-Hangman/" target="_blank">
+                  <i class="material-icons">zoom_out_map</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Lebowski Hangman</span>
+                <p>Classic hangman game based on <em>The Big Lebowski</em></p>
+              </div>
+            </div>
+          </div>
+
       </div>
+
+      <div class="row port">
+
+          <div class="col s12 m5">
+            <div class="card">
+              <div class="card-image">
+                <img class="responsive-img" id="burger" src="images/portfolio/burger.png">
+                <!-- <span class="card-title">Top Taco ATX</span> -->
+                <a class="btn-floating halfway-fab waves-effect waves-light deep-orange" href="https://calm-peak-13239.herokuapp.com/" target="_blank">
+                  <i class="material-icons">zoom_out_map</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Burger Annihilator</span>
+                <p>This app allows you to devour existing burgers, or add your own. You can delete burgers, or restore them once devoured.</p>
+              </div>
+            </div>
+          </div>
+      
+        <div class="col s12 m7">
+          <div class="card" id="card1">
+            <div class="card-image">
+              <img class="responsive-img" id="taco" src="images/portfolio/gifgrub.png">
+              <!-- <span class="card-title">Top Taco ATX</span> -->
+              <a class="btn-floating halfway-fab waves-effect waves-light deep-orange" href="https://wllm-chndlr.github.io/GIFgrub/" target="_blank">
+                <i class="material-icons">zoom_out_map</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <span class="card-title">GIFgrub</span>
+              <p>A showcase of super-delish food GIFs</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="row port">
+
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" id="lebowski" src="images/portfolio/astronomy.png">
+              <!-- <span class="card-title">Top Taco ATX</span> -->
+              <a class="btn-floating halfway-fab waves-effect waves-light deep-orange" href="https://wllm-chndlr.github.io/Astronomy-Trivia/"
+                target="_blank">
+                <i class="material-icons">zoom_out_map</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <span class="card-title">Astronomy Trivia</span>
+              <p>Test your knowledge of our universe, and try not to get blown out into space!</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col s12 m5">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" id="burger" src="images/portfolio/crystalz.png">
+              <!-- <span class="card-title">Top Taco ATX</span> -->
+              <a class="btn-floating halfway-fab waves-effect waves-light deep-orange" href="https://wllm-chndlr.github.io/shyny-crystalz/" target="_blank">
+                <i class="material-icons">zoom_out_map</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <span class="card-title">Shyny Crystalz</span>
+              <p>Hit the target number by uncovering hidden values of various crystals.</p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
     </div>
   </div>
 
-  <div class="container" id="secondary">
-
-	<div class="col-md-8">
-		<div class="page-header">
-		  <h1>Portfolio</h1>
-		</div>
-
-
-    <div class="row">
-    
-      <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="https://wllm-chndlr.github.io/TopTaco/" target="_blank">
-            <img src="assets/images/portfolio/toptaco.png" alt="top taco" class="w3-hover-opacity">
-          </a>
-          <div class="caption">
-            <h3 class="title">Top Taco ATX</h3>
-            <p>
-              <a href="https://wllm-chndlr.github.io/TopTaco/" class="btn btn-default" role="button">explore</a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="https://wllm-chndlr.github.io/Lebowski-Hangman/" target="_blank">
-            <img src="assets/images/portfolio/hangman.png" alt="lebowski hangman" class="w3-hover-opacity">
-          </a>
-          <div class="caption">
-            <h3 class="title">Lebowski Hangman</h3>
-            <p>
-              <a href="https://wllm-chndlr.github.io/Lebowski-Hangman/" class="btn btn-default" role="button">explore</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    
-    </div>
-
-		<div class="row">
-      
-      <div class="col-md-6">
-			 <div class="thumbnail">
-        <a href="https://wllm-chndlr.github.io/Astronomy-Trivia/" target="_blank">
-          <img src="assets/images/portfolio/astronomy.png" alt="astronomy trivia" class="w3-hover-opacity">
-        </a>
-				<div class="caption">
-				  <h3 class="title">Astronomy Trivia</h3>
-				  <p>
-					 <a href="https://wllm-chndlr.github.io/Astronomy-Trivia/" class="btn btn-default" role="button">explore</a>
-				  </p>
-				</div>
-			 </div>
-		  </div>
-      
-      <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="https://calm-peak-13239.herokuapp.com/" target="_blank">
-            <img src="assets/images/portfolio/burger.png" alt="burger annihilator" class="w3-hover-opacity">
-          </a>
-          <div class="caption">
-            <h3 class="title">Burger Annihilator</h3>
-            <p>
-              <a href="https://calm-peak-13239.herokuapp.com/" class="btn btn-default" role="button">explore</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      
-		</div>
-    
-    <br>
-    
-    <div class="row">
-      
-      <div class="col-md-6">
-			 <div class="thumbnail">
-        <a href="https://wllm-chndlr.github.io/shyny-crystalz/" target="_blank">
-          <img src="assets/images/portfolio/crystalz.png" alt="crystals game" class="w3-hover-opacity">
-        </a>
-				<div class="caption">
-				  <h3 class="title">Shyny Crystalz</h3>
-				  <p>
-					 <a href="https://wllm-chndlr.github.io/shyny-crystalz/" class="btn btn-default" role="button">explore</a>
-				  </p>
-				</div>
-			 </div>
-      </div>
-      
-		  <div class="col-md-6">
-			 <div class="thumbnail">
-        <a href="https://wllm-chndlr.github.io/GIFgrub/" target="_blank">
-          <img src="assets/images/portfolio/gifgrub.png" alt="GIFgrub" class="w3-hover-opacity">
-        </a>
-				<div class="caption">
-				  <h3 class="title">GIFgrub</h3>
-				  <p>
-					 <a href="https://wllm-chndlr.github.io/GIFgrub/" class="btn btn-default" role="button">explore</a>
-				  </p>
-				</div>
-			 </div>
-		  </div>
-		</div>
-
-  </div>
-
-<br>
-<br>
-
-  <div>
-
-	<div class="container" id="contact">
-		<div class="row">
-		  <div class="col-md-8">
-			  <div class="page-header">
-			  <h1>Contact</h1>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
-		<div class="row">
-			<div class="col-md-12">
-			You can reach me at chndlr dot wllm at gmail dot com.
+    <div class="parallax blue-grey darken-3">
+      <img class="par" src="images/hex_180.png">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+  
+      <div class="row">
+
+        <div class="col s12 m3">
+          <img id="headshot" class="responsive-img" src="images/wc_bw.jpg">
+        </div>
+
+        <div class="col s12 m6">
+          <h2 class="title">About Me</h2>
+          <p class="light">A sixth-generation Texan, I've lived in Mexico, Scotland, and Spain. My family {partner: Jacqueline, son: Lochlan, dogs: Maggie + Griffin} and I are currently based in Austin, with dreams of the Pacific Northwest.</p>
+          <p>I have degrees in Spanish and International Relations, and have worked in study abroad and international human rights. But
+          I've always been a tech fiend, and eventually (and happily) gravitated to programming and web development. I enjoy learning, overcoming challenges, and creating.</p>
+        </div>
+
+        <div class="col s12 m3">
+          <h2 class="title">Contact</h2>
+          <p class="light">You can reach me at <a href="mailto:chndlr.wllm@gmail.com">chndlr.wllm@gmail.com</a>.</p>
+        </div>
+  
       </div>
-		</div>
+  
+    </div>
   </div>
 
-  <div class="footer navbar-fixed-bottom">
-    <footer>
-      Made by William Chandler, 2017
-    </footer>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax blue-grey darken-3">
+      <img class="par" src="images/hex_180.png">
+    </div>
   </div>
 
-</body>
+  <footer class="page-footer orange lighten-2">
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+    <div class="footer-copyright orange lighten-1">
+      <div class="container copy">
+        © 2017 William Chandler
+        <!-- <a class="grey-text text-lighten-4 right" href="#!">source code</a> 
+        <a class="grey-text text-lighten-4 right" href="#!">source code</a> -->
+        <a class="social" href="https://www.linkedin.com/in/wllmchndlr/"><img class="responsive-img social-icon" src="images/icons/linkedin.svg"></a>
+        <a class="social" href="https://stackoverflow.com/users/7964983/wllm-chndlr"><img class="responsive-img social-icon" src="images/icons/stack.jpg"></a>
+        <a class="social" href="https://github.com/wllm-chndlr"><img class="responsive-img social-icon" src="images/icons/github.svg"></a></div>
+    </div>
+  </footer>
 
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
