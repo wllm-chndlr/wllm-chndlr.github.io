@@ -1,12 +1,12 @@
-(function($){
-  $(function(){
+// (function($){
+//   $(function(){
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-    $('.carousel').carousel();
-    // Materialize.scrollFire(options);
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+//     $('.button-collapse').sideNav();
+//     $('.parallax').parallax();
+//     $('.carousel').carousel();
+//     // Materialize.scrollFire(options);
+//   }); // end of document ready
+// })(jQuery); // end of jQuery name space
 
 
 // var options = [
@@ -50,5 +50,23 @@ $(document).ready(function () {
     });
 
   });
+
+  $('#hi').typeIt({
+    // strings: ["|| I'm a full stack developer", "and UI fanatic ||"],
+    speed: 50,
+    // breakLines: false,
+    autoStart: false
+  });
+
+  $('#nav-name').typeIt({
+    // strings: ["|| I'm a full stack developer", "and UI fanatic ||"],
+    speed: 50,
+    // breakLines: false,
+    autoStart: false
+  });
+
+  $('.button-collapse').sideNav();
+  $('.parallax').parallax();
+  $('.carousel').carousel();
 
 });
