@@ -21,12 +21,20 @@ nav .brand-name {
   font-family: 'Teko', sans-serif;
 }
 
+div.card-reveal.rvl {
+  background-color: #808da0;
+}
+
 .card {
   opacity: 0.1;
 }
 
 .par {
   max-width: 100%;
+}
+
+.tech, .creators {
+  font-size: 14px;
 }
 
 #hi {
