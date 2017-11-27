@@ -21,8 +21,18 @@ nav .brand-name {
   font-family: 'Teko', sans-serif;
 }
 
+/* .brand-name2 {
+  font-size: 50px;
+font-family: 'Fjalla One',
+sans-serif;
+} */
+
 div.card-reveal.rvl {
-  background-color: #808da0;
+  background-color: #bdbdbd;
+}
+
+div.nav-soc {
+  margin-top: 10px;
 }
 
 .card {
