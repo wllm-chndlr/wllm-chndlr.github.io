@@ -16,6 +16,10 @@ nav .brand-name {
   color: #fff;
 }
 
+nav {
+  background-color: #1a6785;
+}
+
 .brand-name {
   font-size: 50px;
   font-family: 'Teko', sans-serif;
@@ -90,6 +94,12 @@ a.social {
   padding-left: 10px;
 }
 
+.social-icon-foot {
+  width: 50px;
+  float: left;
+  padding-left: 10px;
+}
+
 a {
   color: #444;
 }
@@ -120,6 +130,10 @@ p {
 
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+img#headshot {
+  margin-top: 25.810px;
 }
 
 footer.page-footer {
