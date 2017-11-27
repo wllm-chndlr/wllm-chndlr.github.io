@@ -100,6 +100,10 @@ a.social {
   padding-left: 10px;
 }
 
+#stack-icon {
+  width: 40px;
+}
+
 a {
   color: #444;
 }
