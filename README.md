@@ -3,4 +3,4 @@
 
 #### Learn more about me and my work [here](https://wllm-chndlr.github.io/)
 
-![portfolio](images/portfolio.png)
+![portfolio](images/portfolio2.png)
