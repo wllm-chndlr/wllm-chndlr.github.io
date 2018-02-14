@@ -111,6 +111,10 @@ a.social {
   padding-top: 3px;
 }
 
+#linked-icon-foot {
+  padding-bottom: 3px;
+}
+
 a {
   color: rgb(78, 78, 78);
 }
