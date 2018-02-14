@@ -99,7 +99,7 @@ a.social {
 
 .social-icon-foot {
   width: 50px;
-  float: left;
+  /* float: left; */
   padding-left: 10px;
 }
 
